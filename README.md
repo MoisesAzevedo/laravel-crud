@@ -1,4 +1,4 @@
-https://moisesazevedo.github.io/laravel-crud
+https://moises-laravelcrud.vercel.app/
 
 Sistema de Registro e Autenticação de usuários, utilizando MySQL, PHP/Laravel e React.js
 
