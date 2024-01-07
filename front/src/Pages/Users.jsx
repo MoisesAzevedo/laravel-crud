@@ -46,7 +46,7 @@ const Users = () => {
                   />
                 </UserItem>
                 <UserItem>
-                  <UserTitle>{users.names}</UserTitle>
+                  <UserTitle>{users.name}</UserTitle>
                   <UserItem>{users.email}</UserItem>
                 </UserItem>
                 <Button
