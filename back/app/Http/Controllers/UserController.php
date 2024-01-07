@@ -40,7 +40,7 @@ class UserController extends Controller
 
         // Validação dos dados do formulário
         $request->validate([
-            'names' => ['required', 'string', 'max:255'],
+            'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             //'password' => ['required', 'confirmed', Password::defaults()],
             'password' => ['confirmed', Password::defaults()],
@@ -48,7 +48,7 @@ class UserController extends Controller
 
         // Criação de um novo usuário no banco de dados
         $user = User::create([
-            'names' => $request->names,
+            'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
         ]);

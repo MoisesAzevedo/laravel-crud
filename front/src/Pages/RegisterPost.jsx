@@ -49,7 +49,7 @@ const RegisterPost = () => {
     if (flagAxios) {
       axios
         .post("http://127.0.0.1:8000/api/auth/register", {
-          names: name,
+          name: name,
           email: email,
           password: password,
           password_confirmation: passwordConfirm
