@@ -5,4 +5,7 @@ Nesse projeto, criei um banco de dados com MySQL para registro de usuários, pro
 
 Utilizei a arquitetura MVC para facilitar a manutenção e o desenvolvimento de software escalável.
 
+Execute o arquivo "appExecute.bat" em sua máquina, para iniciar a aplicação.
+
+
 
