@@ -1,4 +1,4 @@
-OBS: Execute o arquivo "appExecute.bat" para inicializar o projeto em sua máquina.
+# laravel-crud
 
 Sistema de Registro e Autenticação de usuários, utilizando MySQL, PHP/Laravel e React.js
 
